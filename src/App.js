@@ -13,9 +13,8 @@ const Container = styled.div`
 `;
 
 const ChatPlaceholder = styled.img`
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
+  width: 260px;
+  height: 260px;
   object-fit: contain;
 `;
 const Placeholder = styled.div`
@@ -41,7 +40,7 @@ function App() {
         <ConversationComponent selectedChat={selectedChat} />
       ) : (
         <Placeholder>
-          <ChatPlaceholder src="/whatsapp-clone/welcome-placeholder.jpeg" />
+          <ChatPlaceholder src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"/>
           <span>Keep your phone connected</span>
           WhatsApp connects to your phone to sync messages.
         </Placeholder>
